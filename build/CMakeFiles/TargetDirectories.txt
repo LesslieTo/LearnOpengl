@@ -1,0 +1,7 @@
+/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/build/CMakeFiles/LearnOpenGL.dir
+/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/build/CMakeFiles/edit_cache.dir
+/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/build/CMakeFiles/rebuild_cache.dir
+/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/build/CMakeFiles/LearnOpenGL_autogen.dir
+/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/build/EffectCore/CMakeFiles/EffectCore.dir
+/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/build/EffectCore/CMakeFiles/edit_cache.dir
+/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/build/EffectCore/CMakeFiles/rebuild_cache.dir

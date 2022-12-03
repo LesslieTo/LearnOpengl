@@ -1,0 +1,259 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "EffectCore/libEffectCore.dylib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"EffectCore/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "EffectCore_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/build/EffectCore"
+				},
+				{
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/sample"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/util"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/render"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/external"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/external/glad"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/external/image"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "EffectCore_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/build/EffectCore"
+				},
+				{
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/sample"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/util"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/render"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/external"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/external/glad"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/yafei.du/Learning/LearnOpenGL/LearnOpenGL/EffectCore/external/image"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"id" : "EffectCore::@ad28c2a750444016a34a",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-all_load",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "EffectCore",
+	"nameOnDisk" : "libEffectCore.dylib",
+	"paths" : 
+	{
+		"build" : "EffectCore",
+		"source" : "EffectCore"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "EffectCore/external/glad/glad.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "EffectCore/external/glm/detail/glm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "EffectCore/render/GLRenderContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "EffectCore/sample/FBOSample.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "EffectCore/sample/FrameBufferSample.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "EffectCore/sample/TextureMapSample.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "EffectCore/sample/TriangleSample.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "EffectCore/sample/VaoSample.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "EffectCore/util/GLUtils.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
